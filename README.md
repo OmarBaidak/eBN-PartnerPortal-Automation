@@ -30,23 +30,25 @@ Maven
 
 Scenario:
 
-1.Open the login page: https://devtesting.onekonnect.com/eBNPartnerPortal_test2/Account/Login
+1. Open the login page: https://devtesting.onekonnect.com/eBNPartnerPortal_test2/Account/Login
 
-2.Login with credentials from JSON:
--Username: TestingAutomation
--Password: Interview@123!
+2. Login with credentials from JSON:
 
-3.Verify the dashboard appears
+   -Username: TestingAutomation
 
-4.Click Add (+) and choose Electronic Data Interchange
+   -Password: Interview@123!
 
-5.Fill only mandatory fields from JSON
+3. Verify the dashboard appears
 
-6.Submit the form
+4. Click Add (+) and choose Electronic Data Interchange
 
-7.Go to the Orders tab
+5. Fill only mandatory fields from JSON
 
-8.Verify the new order appears in the orders list
+6. Submit the form
+
+7. Go to the Orders tab
+
+8. Verify the new order appears in the orders list
 
 ## Skills
 
