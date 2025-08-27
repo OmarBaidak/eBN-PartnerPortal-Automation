@@ -3,15 +3,13 @@ eBN Partner Portal Test Automation
 This is a test automation task for the eBN Partner Portal website. The test covers logging in, creating an EDI order, and verifying it appears in the Orders tab.
 
 Installation
-
 Clone the repo:
 
 https://github.com/OmarBaidak/eBN-PartnerPortal-Automation.git
 
 
 Install dependencies:
-
-You need the following dependencies (managed via pom.xml):
+You need the following dependencies from Maven:
 
 Selenium WebDriver
 
@@ -19,7 +17,7 @@ TestNG
 
 WebDriverManager
 
-JSON Simple (for JSON data handling)
+JSON Simple
 
 Requires:
 
@@ -27,41 +25,38 @@ JDK 17
 
 Maven
 
-Test Scenarios
+Test Scenario
 
-Scenario:
+Open the login page: https://devtesting.onekonnect.com/eBNPartnerPortal_test2/Account/Login
 
-Open the login page:
-https://devtesting.onekonnect.com/eBNPartnerPortal_test2/Account/Login
-
-Login with credentials (read from JSON):
+Login with credentials from JSON:
 
 Username: TestingAutomation
 
 Password: Interview@123!
 
-Verify the dashboard appears.
+Verify the dashboard appears
 
-Click Add (+) → choose Electronic Data Interchange.
+Click Add (+) and choose Electronic Data Interchange
 
-Fill only mandatory fields (loaded from JSON).
+Fill only mandatory fields from JSON
 
-Submit the form.
+Submit the form
 
-Navigate to the Orders tab.
+Go to the Orders tab
 
-Verify that your new order appears in the orders list.
+Verify the new order appears in the orders list
 
-Skills Demonstrated
+Skills
 
-Java (JDK 17)
+Java
 
 Selenium WebDriver
 
 TestNG
 
-Page Object Model (POM)
+POM (Page Object Model)
 
-Data-driven testing via JSON
+Data-driven testing (JSON)
 
-Maven build automation
+Maven
