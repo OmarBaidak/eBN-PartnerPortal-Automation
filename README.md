@@ -1,5 +1,5 @@
 # eBN Partner Portal Test Automation
-> This is a test automation task on [__eBN Partner Portal website__](https://devtesting.onekonnect.com/eBNPartnerPortal_test2/Account/Login) website (The test covers logging in, creating an EDI order, and verifying it appears in the Orders tab.
+> This is a test automation task on [__eBN Partner Portal website__](https://devtesting.onekonnect.com/eBNPartnerPortal_test2/Account/Login) website (The test covers logging in, creating an EDI order, and verifying it appears in the Orders tab.)
 
 
 ## Installation
